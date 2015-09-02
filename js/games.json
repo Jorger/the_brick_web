@@ -1,0 +1,52 @@
+[
+	{
+		"name" 			: "TETRIS", 
+		"base"			: "tetris", 
+		"icon"			: "tetris.png", 
+		"local"			: "tetris",
+		"script"		: "script.js", 
+		"max"			: 5, 
+		"percentage" 	: 10, 
+		"velbase"		: 30
+	}, 
+	{
+		"name" 			: "RACE", 
+		"base"			: "cars", 
+		"icon"			: "race.png", 
+		"local"			: "cars",
+		"script"		: "script.js", 
+		"max"			: 10, 
+		"percentage" 	: 5, 
+		"velbase"		: 20
+	},
+	{
+		"name" 			: "GUESS THE FIGURE", 
+		"base"			: "guess", 
+		"icon"			: "guess.jpg", 
+		"local"			: "guess",
+		"script"		: "script.js", 
+		"max"			: 5, 
+		"percentage" 	: 5, 
+		"velbase"		: 40
+	},
+	{
+		"name" 			: "FROG", 
+		"base"			: "frog", 
+		"icon"			: "frog.png", 
+		"local"			: "frog",
+		"script"		: "script.js", 
+		"max"			: 5, 
+		"percentage" 	: 5, 
+		"velbase"		: 20
+	}, 
+	{
+		"name" 			: "TANKS", 
+		"base"			: "tank", 
+		"icon"			: "tanks.png", 
+		"local"			: "tank",
+		"script"		: "script.js", 
+		"max"			: 5, 
+		"percentage" 	: 5, 
+		"velbase"		: 15
+	}
+]

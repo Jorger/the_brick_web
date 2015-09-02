@@ -1,0 +1,244 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	margin: 0; padding: 0; 
+	background: #000; 
+	overflow: hidden;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#carcasa
+{
+	position: relative;
+	display: block; 
+	margin: 0 auto; 
+	background: black;
+}
+
+#lcd
+{
+	background: #A3B5AD;
+	position: absolute;
+	left: 15%;
+	top: 5%;
+	z-index: 1;
+	display: none;
+}
+
+
+#enter
+{
+	position:absolute;
+	width : 25%;
+	height : 15%;
+	top: 65%;
+	left: 68%;
+	border-radius: 50%;
+	cursor: pointer;
+	-webkit-tap-highlight-color:transparent;
+}
+
+.btnSel
+{
+	background: rgba(5, 5, 5, 0.58);
+}
+
+
+.btns
+{
+	/*
+	border:1px solid red;
+	background: rgba(255, 0, 0, 0.29);
+	*/
+	position:absolute;
+	width : 18%;
+	height : 10%;
+	z-index: 10;
+	border-radius: 50%;
+	cursor: pointer;
+	-webkit-tap-highlight-color:transparent;
+}
+
+#left
+{
+	top: 70%;
+	left: 5%;
+}
+
+#right
+{
+	top: 70%;
+	left: 39%;
+}
+
+#top
+{
+	top: 63%;
+	left: 22%;
+}
+
+#bottom
+{
+	top: 77%;
+	left: 22%;
+}
+
+#opciones
+{
+	/*
+	border:1px solid #EAFF00;
+	background: rgba(255, 255, 0, 0.29);
+	*/
+	position:absolute;
+	width : 10%;
+	height : 5%;
+	z-index: 10;
+	border-radius: 50%;
+	left: 88%;
+	top: 4%;
+	cursor: pointer;
+	-webkit-tap-highlight-color:transparent;
+}
+
+#fade 
+{
+   /*display: block;*/  /* ensures it’s invisible until it’s called */
+   position: absolute;  /* makes the div go into a position that’s absolute to the browser viewing area */
+   left: 0%; /* makes the div span all the way across the viewing area */
+   top: 0%; /* makes the div span all the way across the viewing area */
+   background-color: black;
+   -moz-opacity: 0.6; /* makes the div transparent, so you have a cool overlay effect */
+   opacity: .60;
+   filter: alpha(opacity=60);
+   width: 100%;
+   height: 100%;
+   z-index: 50; /* makes the div the second most top layer, so it’ll lay on top of everything else EXCEPT for divs with a higher z-index (meaning the #overlay ruleset) */    
+}
+
+#loading
+{
+   background:#000 url(../img/loader.gif) no-repeat center center;
+   height: 50px;
+   width: 50px;
+   position: fixed;
+   left: 50%;
+   top: 50%;
+   margin: -25px 0 0 -25px;
+   z-index: 100;
+}
+
+#menu
+{
+	position:absolute;
+	width: 80%;
+	height: 90%;
+	background-color: rgba(0, 0, 0, 0.31);
+	z-index: 90;
+	left: 4%;
+	top: 4%;
+	border-radius: 10px;
+	border: 3px solid white;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: none;
+}
+
+#titulo
+{
+	font-family: Arial;
+	font-size: 2em;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+hr
+{
+	border: 1px solid white;
+}
+
+#listadoGames
+{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	width: 95%;
+	/*border: 1px solid white;*/
+	height: 60%;
+	overflow: auto;
+	color: white;
+	padding: 10px;
+}
+
+
+.imgJuego
+{
+	display: inline-block;
+	width: 20%;
+	/*border: 1px solid white;*/
+}
+
+.imgGame
+{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.txtJuego
+{
+	display: inline-block;
+	width: 70%;
+	/*border: 1px solid red;*/
+	font-family: Arial;
+	font-size: 1.2em;
+}
+
+.selGame
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid white;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgba(37, 76, 120, 0.24);
+	border-radius: 10px;
+	cursor: pointer;
+	/*-webkit-tap-highlight-color:transparent;*/
+}
+
+.bntGame
+{
+	border: 2px solid white;
+	border-radius: 5px;
+	font-family: Arial;
+	color: white;
+	height: 7%;
+	text-align: center;
+	padding-top: 18px;
+	font-size: 1.2em;
+	margin-left: 5px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a
+{
+	color: #06ADF7;
+	text-decoration: none;
+}
+
+#closebtn
+{
+	background-color: rgba(171, 32, 32, 0.46);
+}

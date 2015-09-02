@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Brick WEB</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<meta name="viewport" content="width=device-width, 
+    user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-icon-precomposed" href="img/icono.png"/>
+	<link rel = "manifest" href = "manifest.json">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" />
+	<!--[if lt IE 9]>
+	  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.min.css" />
+	<![endif]-->
+</head>
+<body>
+	<div id="fade"></div>
+	<div id="loading"></div>
+	<div id = "carcasa">
+		<!-- Para el menú de opciones //-->
+		<div id="menu">
+			<div class="github-fork-ribbon-wrapper left" style="position: absolute; bottom: 0; right: 0; border: 0;">
+        		<div class="github-fork-ribbon">
+            		<a href = "https://github.com/Jorger/the_brick_web" target="_blank">Fork me on GitHub</a>
+        		</div>
+    		</div>
+
+			<div id = "titulo" align="center">The Brick WEB<br>
+			<a href = "https://twitter.com/ostjh" target="_blank">By @ostjh</a></div>
+			<hr>
+			<div id="listadoGames"></div>
+			<div id="closebtn" class="bntGame">CANCEL</div>
+		</div>
+		<canvas id = "lcd"></canvas>
+		<!-- Botones //-->
+		<div id = "enter"></div>
+		<div id = "left" class = "btns"></div>
+		<div id = "right" class = "btns"></div>
+		<div id = "top" class = "btns"></div>
+		<div id = "bottom" class = "btns"></div>
+		<div id = "opciones"></div>
+	</div>
+	<script src = "https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+	<script src = "js/script.js"></script>
+</body>
+</html>
