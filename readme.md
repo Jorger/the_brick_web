@@ -36,7 +36,7 @@ Actualmente The Brick Web cuenta con 05 juegos como son:
 
 ![QR](https://dl.dropboxusercontent.com/u/181689/imgBrick/brickFrog.gif)
 
-Tanks
+##### Tanks
 
 ![QR](https://dl.dropboxusercontent.com/u/181689/imgBrick/Tanks.gif)
 
