@@ -4,6 +4,7 @@ Inspirado en el popuplar juego [The Brick Game], The Brick Web trae al mundo web
 
 Este proyecto pretende crear un espacio para el fácil desarrollo de estos juegos en está ocasión haciendo uso de tecnologías web como es el caso de [Canvas]
 
+
 ![TBW](https://dl.dropboxusercontent.com/u/181689/imgBrick/TheBrickGame.png?a=2)
 
 ### Demo
@@ -44,6 +45,10 @@ Actualmente The Brick Web cuenta con 05 juegos como son:
 
 Ver la [Wiki del repositorio]
 
+### Más Información
+
+The Brick Web en [Medium.com]
+
 ### Autor
 Jorge Rubaino [@ostjh]
 License
@@ -55,3 +60,4 @@ MIT
 [pantalla principal]:https://developer.chrome.com/multidevice/images/home_add.png
 [manifest.json]:https://developers.google.com/web/updates/2014/11/Support-for-installable-web-apps-with-webapp-manifest-in-chrome-38-for-Android
 [Wiki del repositorio]:https://github.com/Jorger/the_brick_web/wiki
+[Medium.com]:https://medium.com/@ostjh/the-brick-web-364beb3aba69
