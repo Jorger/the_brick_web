@@ -40,6 +40,9 @@ Tanks
 
 ![QR](https://dl.dropboxusercontent.com/u/181689/imgBrick/Tanks.gif)
 
+### Crear un nuevo juego
+
+Ver la [Wiki del repositorio]
 
 ### Autor
 Jorge Rubaino [@ostjh]
@@ -51,3 +54,4 @@ MIT
 [Canvas]:https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
 [pantalla principal]:https://developer.chrome.com/multidevice/images/home_add.png
 [manifest.json]:https://developers.google.com/web/updates/2014/11/Support-for-installable-web-apps-with-webapp-manifest-in-chrome-38-for-Android
+[Wiki del repositorio]:https://github.com/Jorger/the_brick_web/wiki
