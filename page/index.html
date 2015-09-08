@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Brick Web</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- CSS 
+        ================================================== -->
+    <!-- Bootstrap 3-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+    <!-- Template Styles -->
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+    .carrusel
+    {
+    	margin-top: 5px;
+    	border-radius: 20px;
+    }
+    </style>
+      </head>
+  <body>
+	  <!-- NAVBAR
+	      ================================================== -->
+	  <nav class="navbar navbar-default" role="navigation">
+	  	  <div class="container">
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+			      <span class="sr-only">Toggle navigation</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			    </button>
+			    
+			    <!--Replace text with your app name or logo image-->
+			    <a class="navbar-brand" href="#">The Briick Web</a>
+			    
+			  </div>
+			  <div class="collapse navbar-collapse navbar-ex1-collapse">
+			    <ul class="nav navbar-nav">
+			      <li><a onclick="$('header').animatescroll({padding:71});">Start</a></li>
+			      <li><a onclick="$('.social').animatescroll({padding:71});">Social	</a></li>
+			    </ul>
+			  </div>
+		  </div>
+	  </nav>
+	  
+	  
+	   <!-- HEADER
+	   ================================================== -->	  
+	  <header>
+		 <div class="container">
+			 <div class="row">
+				 <div class="col-md-12">
+					  <h1>The Brick Web</h1>
+					  <p class="lead">Classic games in HTML5 / Canvas and JavaScript</p>
+					  <div class="carousel-iphone">
+					  	<div id="carousel-example-generic" class="carousel slide">
+					    <!-- Indicators -->
+					    <ol class="carousel-indicators">
+					      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+					      <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+					    </ol>
+					  
+					    <!-- Wrapper for slides -->
+					    <div class="carousel-inner">
+					      <div class="item active">
+					        <img src="img/screenshots/app-1.png" alt="Tetris" class = "carrusel">
+					      </div>
+					      <div class="item">
+					        <img src = "img/screenshots/app-2.png" alt="Race" class = "carrusel">
+					      </div>
+					      <div class="item">
+					        <img src="img/screenshots/app-3.png" alt="Guess" class = "carrusel">
+					      </div>
+
+					      <div class="item">
+					        <img src="img/screenshots/app-4.png" alt="Frog" class = "carrusel">
+					      </div>
+					      <div class="item">
+					        <img src="img/screenshots/app-5.png" alt="Tanks" class = "carrusel">
+					      </div>
+					      
+					    </div>
+					  </div>
+					</div>
+				</div>	  
+			</div>    
+		</div>
+	 </header>	  
+	  <section class="purchase">
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-md-offset-2 col-md-8">
+
+					 <h1>Play it online or download it (MAC Only)
+					 </h1>
+					 	    <a href="https://jorger.github.io/the_brick_web/" class="btn btn-info btn-lg" target="_blank"><span class="glyphicon glyphicon-play"></span>Play Online</a>
+
+					 	    <a href="https://db.tt/UwdGSK5A" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-save"></span> Donwload for MAC</a>
+
+
+					 	    
+				  </div>
+			  </div>
+		  </div>
+	  </section>
+	  <section class="social">
+	  	<div class="container">
+	  		  <div class="row">
+	  			  <div class="col-md-12">
+	  			  	<h2>Social</h2>
+	  			   	<a class="icon-twitter" href="https://twitter.com/ostjh" target="_blank"></a>
+	  			   	<a class="icon-google" href="https://plus.google.com/u/0/+JorgeHumbertoRubianoRojas" target="_blank"></a>
+	  			   </div>
+	  		  </div>
+	  	  </div>	  
+	  </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animatescroll.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/retina.min.js"></script>
+</html>
